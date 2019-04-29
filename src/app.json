@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/search/main",
+    "pages/about/main",
+    "pages/detail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "w3ctech",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": 50,
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#40D4EF",
+    "list":[
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页",
+        "iconPath": "/asset/img/file-text-icon.png",
+        "selectedIconPath": "/asset/img/actived-file-text-icon.png"
+      },
+      {
+        "pagePath": "pages/search/main",
+        "text": "搜索",
+        "iconPath": "/asset/img/search-icon.png",
+        "selectedIconPath": "/asset/img/actived-search-icon.png"
+      },
+      {
+        "pagePath": "pages/about/main",
+        "text": "关于",
+        "iconPath": "/asset/img/team-icon.png",
+        "selectedIconPath": "/asset/img/actived-team-icon.png"
+      }
+    ]
+  }
+}
